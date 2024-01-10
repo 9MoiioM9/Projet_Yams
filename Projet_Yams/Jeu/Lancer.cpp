@@ -7,10 +7,9 @@
 #include "Lancer.h"
 
 Lancer::Lancer() {
-    for(int d : dices){
-        d = rand() % 6 + 1;
+    for(int i =0; i<dices.size();i++){
+        dices[i] = rand() % 6 + 1;
     }
-
     afficheDes();
 }
 
