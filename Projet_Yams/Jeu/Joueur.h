@@ -13,7 +13,12 @@
 class Joueur {
 private:
     long score = 0;
-    std::string id;
+    int id;
+public:
+    Joueur(int id);
+    int getId();
+    int getScore();
+    void setScore(int sc);
 
 };
 
