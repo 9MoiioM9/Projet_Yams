@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Moi/Documents/GitHub/Projet_Yams/Projet_Yams
+# Install script for directory: C:/Users/julie/Documents/GitHub/Projet_Yams/Projet_Yams
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Moi/Documents/GitHub/Projet_Yams/Projet_Yams/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/julie/Documents/GitHub/Projet_Yams/Projet_Yams/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

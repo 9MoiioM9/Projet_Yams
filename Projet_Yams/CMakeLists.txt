@@ -13,12 +13,11 @@ add_executable(Projet_Yams main.cpp
         Jeu/Figures/Petite_Suite.h
         Jeu/Figures/Grande_Suite.cpp
         Jeu/Figures/Grande_Suite.h
-        Jeu/Figures/Full.cpp
-        Jeu/Figures/Full.h
         Jeu/Joueur.cpp
         Jeu/Joueur.h
         Jeu/Figures/Chance.cpp
         Jeu/Figures/Chance.h
         Jeu/Lancer.cpp
         Jeu/Lancer.h
+        Jeu/Figures/Templates/Full.h
 )
