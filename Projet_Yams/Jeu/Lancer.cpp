@@ -6,17 +6,32 @@
 #include <iostream>
 #include "Lancer.h"
 
-Lancer::Lancer(std::vector<int> &) {
+Lancer::Lancer() {
     for(int d : dices){
         d = rand() % 6 + 1;
     }
 
-
+    afficheDes();
 }
 
-std::vector<int> Lancer::relancer(std::vector<int> &) {
-    std::cout << "Voulez-vous relancer vos dés ? Mettre 0 "
-    return std::vector<int>();
+std::vector<int> Lancer::relancer() {
+    std::cout << "Voulez-vous relancer vos dés ? Si oui veuillez rentrer le nombre de dés à relancer sinon taper 0" << std::endl;
+    int nbRelance;
+    std::cin >> nbRelance;
+
+    if(nbRelance){
+        int choice;
+        std::vector<int> new_main = this->dices;
+        std::cout << "Choississez les dés à relancer (de 1 à 5) : " << std::endl;
+        for(int i = 0; i<nbRelance; i++){
+            std::cin >> choice;
+            new_main[choice-1] = rand() % 6 + 1;
+        }
+        this->dices = new_main;
+        afficheDes();
+    }
+
+    return this->dices;
 }
 
 void Lancer::afficheDes() {

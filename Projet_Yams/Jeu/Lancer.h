@@ -13,8 +13,8 @@ private:
     std::vector<int> dices = std::vector<int>(5);
 
 public:
-    Lancer(std::vector<int>&);
-    std::vector<int> relancer(std::vector<int>&);
+    Lancer();
+    std::vector<int> relancer();
     void afficheDes();
 
 };
