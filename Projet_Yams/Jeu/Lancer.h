@@ -9,14 +9,14 @@
 #include <vector>
 
 class Lancer {
-
 private:
-    std::vector<int> dices;
+    std::vector<int> dices = std::vector<int>(5);
 
 public:
-    void play() {
+    Lancer(std::vector<int>&);
+    std::vector<int> relancer(std::vector<int>&);
+    void afficheDes();
 
-    }
 };
 
 
