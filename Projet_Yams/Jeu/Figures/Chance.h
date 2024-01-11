@@ -9,7 +9,11 @@
 #include "Figure.h"
 
 class Chance : public Figure {
+private:
+    std::vector<int> valDes;
+    int gain;
 public:
+    Chance(const std::vector<int>& valdices);
     int calcul(const std::vector<Figure> &);
 };
 

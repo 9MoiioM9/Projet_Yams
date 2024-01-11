@@ -9,7 +9,7 @@
 #include <vector>
 
 class Figure {
-private:
+protected:
     int gain;
 
 public:
