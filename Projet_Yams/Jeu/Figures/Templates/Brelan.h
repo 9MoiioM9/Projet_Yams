@@ -7,6 +7,7 @@
 
 
 #include <cstdio>
+#include <algorithm>
 #include "../Figure.h"
 
 template <typename T> class Brelan : public Figure {
@@ -19,12 +20,11 @@ public :
 
 
 int calcul(const std::vector<Figure*>& figures) const override {
-    int score = 0;
 
     if(valDes.size() == 3 && valDes[0] == valDes[1] && valDes[1] == valDes[2]){
-        score = 3*valDes[0];
+        this->gain = 3*valDes[0];
     }
-    return score;
+    return gain;
 }
 };
 

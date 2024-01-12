@@ -9,7 +9,12 @@
 #include "Figure.h"
 
 class Petite_Suite : public Figure {
-
+private :
+    std::vector<int> valDes;
+    int gain = 30;
+public :
+    Petite_Suite(const std::vector<int>& valdices);
+    int calcul(const std::vector<Figure*>& figures) const override;
 };
 
 

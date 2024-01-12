@@ -18,12 +18,12 @@ public :
 
 
     int calcul(const std::vector<Figure*>& figures) const override {
-        int score = 0;
+
 
         if(valDes.size() == 5 && valDes[0] == valDes[1] && valDes[0] == valDes[2]&& valDes[0] == valDes[3]&& valDes[0] == valDes[4]){
-            score = 50;
+            this->gain = 50;
         }
-        return score;
+        return gain;
     }
 };
 
