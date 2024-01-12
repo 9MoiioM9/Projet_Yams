@@ -5,6 +5,7 @@ int main() {
     std::cout << "Hello, World!" << std::endl;
     srand(static_cast<unsigned>(time(0)));
     Lancer test;
+    test.relancer();
 
     return 0;
 }

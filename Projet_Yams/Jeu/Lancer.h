@@ -14,8 +14,10 @@ private:
 
 public:
     Lancer();
-    std::vector<int> relancer();
+    void relanceAll();
+    void relancer();
     void afficheDes();
+    bool isPresent(std::vector<int> &, int &);
 
 };
 
