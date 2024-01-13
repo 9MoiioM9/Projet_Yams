@@ -19,6 +19,7 @@ protected:
 public:
 
     virtual int calcul(const std::vector<int> &) const = 0;
+    std::vector<int> entierEgaux(const std::vector<int>& main, int val);
 
 
     int getNumero();

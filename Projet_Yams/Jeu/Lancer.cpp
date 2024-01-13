@@ -62,3 +62,7 @@ void Lancer::afficheDes() {
     }
     std::cout << "]" << std::endl;
 }
+
+std::vector<int> Lancer::getDices() {
+    return this->dices;
+}

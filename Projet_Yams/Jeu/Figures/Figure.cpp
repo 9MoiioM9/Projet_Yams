@@ -31,3 +31,15 @@ bool Figure::isComplete() {
 void Figure::setComplete() {
     this->complete = true;
 }
+
+std::vector<int> Figure::entierEgaux(const std::vector<int> &main, int val) {
+    std::vector<int> res;
+
+    for (int value : main) {
+        if (value == val) {
+            res.push_back(value);
+        }
+    }
+
+    return res;
+}

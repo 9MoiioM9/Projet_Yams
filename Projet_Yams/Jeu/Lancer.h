@@ -18,6 +18,7 @@ public:
     void relancer();
     void afficheDes();
     bool isPresent(std::vector<int> &, int &);
+    std::vector<int> getDices();
 
 };
 
