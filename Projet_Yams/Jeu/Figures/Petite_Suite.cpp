@@ -5,16 +5,16 @@
 #include <algorithm>
 #include "Petite_Suite.h"
 
-Petite_Suite::Petite_Suite(const std::vector<int> &valdices) : valDes(valdices) {
-
+Petite_Suite::Petite_Suite() {
+    this->gain = 30;
 }
 
-int Petite_Suite::calcul(const std::vector<Figure *> &figures) const {
-    if(valDes.size() == 4){
-        std::vector<int> sortedDes = valDes;
-        std::sort(sortedDes.begin(), sortedDes.end());
+int Petite_Suite::calcul(const std::vector<int> &main) const {
+    if(main.size() == 5){
+        std::vector<int> sortedDices = main;
+        std::sort(sortedDices.begin(), sortedDices.end());
 
-        if(sortedDes[0] < sortedDes[1] && sortedDes[1] < sortedDes[2] && sortedDes[2] < sortedDes[3]){
+        if(sortedDices[0] < sortedDices[1] && sortedDices[1] < sortedDices[2] && sortedDices[2] < sortedDices[3]){
             return this->gain;
         }
     }

@@ -9,21 +9,13 @@
 #include "../Figure.h"
 
 template <typename T> class Yams: public Figure {
-private :
-    std::vector<T> valDes;
 public :
-    Yams(const std::vector<T>& valdices) : valDes(valdices){
+    Yams() {}
 
-    }
-
-
-    int calcul(const std::vector<Figure*>& figures) const override {
-
-
-        if(valDes.size() == 5 && valDes[0] == valDes[1] && valDes[0] == valDes[2]&& valDes[0] == valDes[3]&& valDes[0] == valDes[4]){
-            this->gain = 50;
-        }
-        return gain;
+    int calcul(const std::vector<int>& main) const override {
+        if(main.size() == 5 && main[0] == main[1] && main[0] == main[2]&& main[0] == main[3]&& main[0] == main[4]){
+            return 50;
+        }else return 0; //TODO err
     }
 };
 

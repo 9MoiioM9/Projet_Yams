@@ -5,16 +5,16 @@
 #include <algorithm>
 #include "Grande_Suite.h"
 
-Grande_Suite::Grande_Suite(const std::vector<int> &valdices) : valDes(valdices) {
-
+Grande_Suite::Grande_Suite() {
+    this->gain = 40;
 }
 
-int Grande_Suite::calcul(const std::vector<Figure *> &figures) const {
-    if(valDes.size() == 5){
-        std::vector<int> sortedDes = valDes;
-        std::sort(sortedDes.begin(), sortedDes.end());
+int Grande_Suite::calcul(const std::vector<int> &main) const {
+    if(main.size() == 5){
+        std::vector<int> sortedDices = main;
+        std::sort(sortedDices.begin(), sortedDices.end());
 
-        if(sortedDes[0] < sortedDes[1] && sortedDes[1] < sortedDes[2] && sortedDes[2] < sortedDes[3] && sortedDes[3] < sortedDes[4]){
+        if(sortedDices[0] < sortedDices[1] && sortedDices[1] < sortedDices[2] && sortedDices[2] < sortedDices[3] && sortedDices[3] < sortedDices[4]){
             return this->gain;
         }
     }

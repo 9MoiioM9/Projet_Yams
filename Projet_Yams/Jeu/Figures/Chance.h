@@ -13,8 +13,8 @@ private:
     std::vector<int> valDes;
     int gain;
 public:
-    Chance(const std::vector<int>& valdices);
-    int calcul(const std::vector<Figure> &);
+    Chance();
+    int calcul(const std::vector<int> &);
 };
 
 

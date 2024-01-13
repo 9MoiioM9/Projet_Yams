@@ -11,9 +11,14 @@
 class Figure {
 protected:
     int gain;
+    int numero;
 
 public:
-    virtual int calcul(const std::vector<Figure*> &) const = 0;
+    virtual int calcul(const std::vector<int> &) const = 0;
+    int getNumero();
+    int getGain();
+    void setNumero(const int &);
+    void setGain(const int &);
 };
 
 

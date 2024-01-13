@@ -11,21 +11,18 @@
 #include "../Figure.h"
 
 template <typename T> class Brelan : public Figure {
-private :
-    std::vector<T> valDes;
 public :
-    Brelan(const std::vector<T>& valdices) : valDes(valdices){
+    Brelan(const std::vector<T>& valdices) {
 
-}
-
-
-int calcul(const std::vector<Figure*>& figures) const override {
-
-    if(valDes.size() == 3 && valDes[0] == valDes[1] && valDes[1] == valDes[2]){
-        this->gain = 3*valDes[0];
     }
-    return gain;
-}
+
+
+    int calcul(const std::vector<int> &main) const override {
+        if(main.size() == 3 && main[0] == main[1] && main[1] == main[2]){
+            return 3*main[0];
+        }
+        return 0; //TODO err
+    }
 };
 
 

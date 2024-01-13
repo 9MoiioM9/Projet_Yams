@@ -9,12 +9,9 @@
 #include "Figure.h"
 
 class Grande_Suite : public Figure {
-private :
-    std::vector<int> valDes;
-    int gain = 40;
 public :
-    Grande_Suite(const std::vector<int>& valdices);
-    int calcul(const std::vector<Figure*>& figures) const override;
+    Grande_Suite();
+    int calcul(const std::vector<int> &) const override;
 };
 
 

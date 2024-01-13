@@ -3,3 +3,19 @@
 //
 
 #include "Figure.h"
+
+int Figure::getNumero() {
+    return this->numero;
+}
+
+int Figure::getGain() {
+    return this->gain;
+}
+
+void Figure::setNumero(const int &n_numero) {
+    this->numero = n_numero;
+}
+
+void Figure::setGain(const int &n_gain) {
+    this->gain = n_gain;
+}

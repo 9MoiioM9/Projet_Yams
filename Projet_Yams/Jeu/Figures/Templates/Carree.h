@@ -9,19 +9,16 @@
 #include "../Figure.h"
 
 template <typename T> class Carree: public Figure {
-private :
-    std::vector<T> valDes;
 public :
-    Carree(const std::vector<T>& valdices) : valDes(valdices){
+    Carree(const std::vector<T>& valdices) {
 
     }
 
-
-    int calcul(const std::vector<Figure*>& figures) const override {
-        if(valDes.size() == 4 && valDes[0] == valDes[1] && valDes[0] == valDes[2]&& valDes[0] == valDes[3]){
-            this->gain = 4*valDes[0];
+    int calcul(const std::vector<int> &main) const override {
+        if(main.size() == 4 && main[0] == main[1] && main[0] == main[2]&& main[0] == main[3]){
+            return 4*main[0];
         }
-        return gain;
+        return 0; //TODO Erreur
     }
 };
 

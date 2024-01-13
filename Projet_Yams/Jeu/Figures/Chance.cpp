@@ -5,13 +5,13 @@
 #include <algorithm>
 #include "Chance.h"
 
-int Chance::calcul(const std::vector<Figure> &) {
-    if(valDes.size() == 5){
-        this->gain = valDes[0] + valDes[1] + valDes[2] + valDes[3] + valDes[4];
-        return gain;
+int Chance::calcul(const std::vector<int> &main) {
+    if(main.size() == 5){
+        int score = main[0] + main[1] + main[2] + main[3] + main[4];
+        return score;
     }
 }
 
-Chance::Chance(const std::vector<int> &valdices) : valDes(valdices) {
+Chance::Chance(){
 
 }
