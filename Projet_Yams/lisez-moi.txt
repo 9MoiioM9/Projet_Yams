@@ -1,0 +1,14 @@
+Lespagnol Killian
+Tribouillois Julien
+
+Projet de COO : Jeu de Yams
+
+Ce projet à pour but d'organiser une partie de Yams. Pour cela les
+deux joueurs n'auront quà lire les informations
+dans la consoles et choisir que remplir dans leur grille de score.
+
+Ce projet a été réalisé sur CLion en c++ 17.
+
+Pour compiler ce projet vous devez être à la racine de ce dernier
+ et executer la commande "make", une fois cela fait un executable nommé yams
+ sera créé, vous pouver ensuite le lancer.

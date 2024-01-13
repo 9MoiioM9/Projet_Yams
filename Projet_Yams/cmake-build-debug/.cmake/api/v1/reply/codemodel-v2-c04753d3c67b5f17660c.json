@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Projet_Yams::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Projet_Yams-Debug-54c9689dbda89b800677.json",
+					"jsonFile" : "target-Projet_Yams-Debug-fdb8616b1ed13d13c97e.json",
 					"name" : "Projet_Yams",
 					"projectIndex" : 0
 				}
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Moi/Documents/GitHub/Projet_Yams/Projet_Yams/cmake-build-debug",
-		"source" : "C:/Users/Moi/Documents/GitHub/Projet_Yams/Projet_Yams"
+		"build" : "C:/Users/julie/Documents/GitHub/Projet_Yams/Projet_Yams/cmake-build-debug",
+		"source" : "C:/Users/julie/Documents/GitHub/Projet_Yams/Projet_Yams"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 5
+		"minor" : 6
 	}
 }
