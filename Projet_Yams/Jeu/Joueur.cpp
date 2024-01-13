@@ -6,6 +6,7 @@
 
 Joueur::Joueur(int id) {
     this->id = id;
+    this->score = 0 ;
 }
 
 int Joueur::getId() {

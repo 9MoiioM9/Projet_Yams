@@ -14,7 +14,7 @@ class Joueur {
 private:
     long score = 0;
     int id;
-    std::vector<std::string, int> figuresCplt;
+    std::vector<int> figuresCplt;
 public:
     Joueur(int id);
     int getId();

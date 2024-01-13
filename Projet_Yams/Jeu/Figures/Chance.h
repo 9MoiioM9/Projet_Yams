@@ -14,7 +14,7 @@ private:
     int gain;
 public:
     Chance();
-    int calcul(const std::vector<int> &);
+    int calcul(const std::vector<int> &main) const override;
 };
 
 

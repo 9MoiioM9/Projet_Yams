@@ -20,4 +20,13 @@ add_executable(Projet_Yams main.cpp
         Jeu/Lancer.cpp
         Jeu/Lancer.h
         Jeu/Figures/Templates/Full.h
+        tests/TestJoueurs.cpp
+        tests/TestLancer.cpp
+        tests/TestBrelan.cpp
+        tests/TestYams.cpp
+        tests/TestCarree.cpp
+        tests/TestFull.cpp
+        tests/TestGrandeSuite.cpp
+        tests/TestChance.cpp
+        tests/testPetiteSuite.cpp
 )

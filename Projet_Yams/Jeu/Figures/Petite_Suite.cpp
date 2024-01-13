@@ -18,4 +18,5 @@ int Petite_Suite::calcul(const std::vector<int> &main) const {
             return this->gain;
         }
     }
+    else return 0;
 }

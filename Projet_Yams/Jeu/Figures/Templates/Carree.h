@@ -10,7 +10,7 @@
 
 template <typename T> class Carree: public Figure {
 public :
-    Carree(const std::vector<T>& valdices) {
+    Carree() {
 
     }
 

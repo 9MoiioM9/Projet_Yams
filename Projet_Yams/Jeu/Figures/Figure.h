@@ -14,7 +14,7 @@ protected:
     int numero;
 
 public:
-    virtual int calcul(const std::vector<int> &) const = 0;
+    virtual int calcul(const std::vector<int> & main) const = 0;
     int getNumero();
     int getGain();
     void setNumero(const int &);

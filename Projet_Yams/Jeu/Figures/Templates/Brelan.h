@@ -12,7 +12,7 @@
 
 template <typename T> class Brelan : public Figure {
 public :
-    Brelan(const std::vector<T>& valdices) {
+    Brelan() {
 
     }
 
