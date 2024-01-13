@@ -11,7 +11,7 @@
 template <typename T> class Carree: public Figure {
 public :
     Carree(const std::vector<T>& valdices) {
-
+        this->name = "Carree";
     }
 
     int calcul(const std::vector<int> &main) const override {

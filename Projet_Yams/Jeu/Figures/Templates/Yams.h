@@ -10,7 +10,9 @@
 
 template <typename T> class Yams: public Figure {
 public :
-    Yams() {}
+    Yams() {
+        this->name = "Yams";
+    }
 
     int calcul(const std::vector<int>& main) const override {
         if(main.size() == 5 && main[0] == main[1] && main[0] == main[2]&& main[0] == main[3]&& main[0] == main[4]){

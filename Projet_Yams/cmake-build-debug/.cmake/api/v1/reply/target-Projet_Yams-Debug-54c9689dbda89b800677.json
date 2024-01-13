@@ -58,7 +58,9 @@
 				8,
 				10,
 				12,
-				14
+				14,
+				17,
+				19
 			]
 		}
 	],
@@ -101,7 +103,9 @@
 				8,
 				10,
 				12,
-				14
+				14,
+				17,
+				19
 			]
 		},
 		{
@@ -117,7 +121,9 @@
 				11,
 				13,
 				15,
-				16
+				16,
+				18,
+				20
 			]
 		}
 	],
@@ -213,6 +219,28 @@
 		{
 			"backtrace" : 1,
 			"path" : "Jeu/Figures/Templates/Full.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Jeu/Game.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Jeu/Game.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Jeu/Figures/Combinaison.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Jeu/Figures/Combinaison.h",
 			"sourceGroupIndex" : 1
 		}
 	],

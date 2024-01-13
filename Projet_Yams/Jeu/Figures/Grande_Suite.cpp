@@ -8,6 +8,7 @@
 Grande_Suite::Grande_Suite() {
     this->gain = 40;
     this->numero = 11;
+    this->name = "Grand_Suite";
 }
 
 int Grande_Suite::calcul(const std::vector<int> &main) const {
