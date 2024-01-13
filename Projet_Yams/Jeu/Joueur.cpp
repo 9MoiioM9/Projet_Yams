@@ -67,3 +67,18 @@ void Joueur::afficheFigures() {
         std::cout << i+1 << " : " << feuille[i]->getName() << ", completer : " << feuille[i]->isComplete() << std::endl;
     }
 }
+
+bool Joueur::setFeuille(const int &choice) {
+    for(int i=0; i<feuille.size();i++){
+        if(choice == feuille[i]->getNumero()){
+            if(feuille[i]->isComplete()){
+                return false;
+            }
+            feuille[i]->setComplete();
+            std::cout << "Votre choix : " << feuille[i]->getName() << " a bien été validé !" << std::endl;
+            return true;
+        }
+    }
+    std::cout << "Votre choix ne fait pas partie des options de figure ..." << std::endl;
+    return false;
+}

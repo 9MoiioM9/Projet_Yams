@@ -24,7 +24,7 @@ public:
     int getScore();
     void setScore(int sc);
     void afficheFigures();
-
+    bool setFeuille(const int &);
 };
 
 

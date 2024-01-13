@@ -23,7 +23,7 @@ public :
         if(main.size() == 3 && main[0] == main[1] && main[1] == main[2]){
             return 3*main[0];
         }
-        return 0; //TODO err
+        return 0;
     }
 };
 

@@ -17,7 +17,7 @@ public :
     int calcul(const std::vector<int>& main) const override {
         if(main.size() == 5 && main[0] == main[1] && main[0] == main[2]&& main[0] == main[3]&& main[0] == main[4]){
             return 50;
-        }else return 0; //TODO err
+        }else return 0;
     }
 };
 

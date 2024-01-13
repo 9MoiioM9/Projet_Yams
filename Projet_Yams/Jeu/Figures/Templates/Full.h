@@ -27,7 +27,7 @@ public:
                  sortedDices[3] == sortedDices[4]) || (sortedDices[0] == sortedDices[1] && sortedDices[2] == sortedDices[3] && sortedDices[3] == sortedDices[4])) {
                 return 25;
             }
-        }else return 0; //TODO err
+        }else return 0;
 
 
     }

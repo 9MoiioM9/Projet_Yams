@@ -6,8 +6,15 @@
 #define PROJET_YAMS_GAME_H
 
 
-class Game {
+#include <vector>
+#include "Joueur.h"
 
+class Game {
+private:
+    std::vector<Joueur> joueurs;
+public:
+    void play();
+    void initGame();
 };
 
 

@@ -13,14 +13,13 @@ public :
 
     Carree(const std::vector<T>& valdices) {
         this->name = "Carree";
-
     }
 
     int calcul(const std::vector<int> &main) const override {
         if(main.size() == 4 && main[0] == main[1] && main[0] == main[2]&& main[0] == main[3]){
             return 4*main[0];
         }
-        return 0; //TODO Erreur
+        return 0;
     }
 };
 
