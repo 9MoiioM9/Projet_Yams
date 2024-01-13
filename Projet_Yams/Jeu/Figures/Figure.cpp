@@ -19,3 +19,15 @@ void Figure::setNumero(const int &n_numero) {
 void Figure::setGain(const int &n_gain) {
     this->gain = n_gain;
 }
+
+std::string Figure::getName() {
+    return this->name;
+}
+
+bool Figure::isComplete() {
+    return this->complete;
+}
+
+void Figure::setComplete() {
+    this->complete = true;
+}

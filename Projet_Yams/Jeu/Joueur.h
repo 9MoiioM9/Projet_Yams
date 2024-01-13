@@ -12,14 +12,18 @@
 
 class Joueur {
 private:
-    long score = 0;
-    int id;
-    std::vector<int> figuresCplt;
+
+    size_t score = 0;
+    size_t id;
+    std::vector<Figure*> feuille;
+
+
 public:
     Joueur(int id);
     int getId();
     int getScore();
     void setScore(int sc);
+    void afficheFigures();
 
 };
 

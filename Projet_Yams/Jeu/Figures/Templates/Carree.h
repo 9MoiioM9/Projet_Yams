@@ -10,7 +10,9 @@
 
 template <typename T> class Carree: public Figure {
 public :
-    Carree() {
+
+    Carree(const std::vector<T>& valdices) {
+        this->name = "Carree";
 
     }
 

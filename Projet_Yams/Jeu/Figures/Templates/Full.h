@@ -12,7 +12,11 @@
 template <typename T>
 class Full : public Figure {
 public:
-    Full() {}
+
+    Full(const std::vector<T> &valdices) {
+        this->name = "Full";
+    }
+
 
     int calcul(const std::vector<int> &main) const override {
         if (main.size() == 5) {

@@ -8,6 +8,7 @@
 Petite_Suite::Petite_Suite() {
     this->gain = 30;
     this->numero = 10;
+    this->name = "Petite_Suite";
 }
 
 int Petite_Suite::calcul(const std::vector<int> &main) const {

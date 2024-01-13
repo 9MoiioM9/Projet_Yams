@@ -11,7 +11,9 @@
 class Chance : public Figure {
 public:
     Chance();
-    int calcul(const std::vector<int> &main) const override;
+
+    int calcul(const std::vector<int> &) const override;
+
 };
 
 

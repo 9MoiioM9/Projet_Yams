@@ -7,18 +7,28 @@
 
 
 #include <vector>
+#include <string>
 
 class Figure {
 protected:
+    std::string name;
     int gain;
     int numero;
+    bool complete = false;
 
 public:
-    virtual int calcul(const std::vector<int> & main) const = 0;
+
+    virtual int calcul(const std::vector<int> &) const = 0;
+
+
     int getNumero();
     int getGain();
+    bool isComplete();
+    std::string getName();
+
     void setNumero(const int &);
     void setGain(const int &);
+    void setComplete();
 };
 
 
