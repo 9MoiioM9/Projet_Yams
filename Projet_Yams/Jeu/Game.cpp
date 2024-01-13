@@ -51,6 +51,22 @@ void Game::play() {
 
 
 
+
         }
     }
+}
+
+Joueur Game::gagnant() {
+
+    // Initialise le joueur avec le premier joueur de la liste
+    Joueur meilleurJoueur = joueurs[0];
+
+    // Parcours les joueurs restants et met à jour le meilleur joueur si nécessaire
+    for (size_t i = 1; i < joueurs.size(); ++i) {
+        if (joueurs[i].getScore() > meilleurJoueur.getScore()) {
+            meilleurJoueur = joueurs[i];
+        }
+    }
+
+    return meilleurJoueur;
 }
