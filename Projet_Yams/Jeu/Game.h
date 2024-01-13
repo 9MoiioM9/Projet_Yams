@@ -17,7 +17,7 @@ public:
 
     void play();
     void initGame();
-    Joueur gagnant();
+    void gagnant();
 
 };
 

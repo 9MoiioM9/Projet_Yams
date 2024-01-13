@@ -44,7 +44,7 @@ void Game::play() {
     }
 }
 
-Joueur Game::gagnant() {
+void Game::gagnant() {
 
     // Initialise le joueur avec le premier joueur de la liste
     Joueur meilleurJoueur = joueurs[0];
@@ -55,6 +55,5 @@ Joueur Game::gagnant() {
             meilleurJoueur = joueurs[i];
         }
     }
-
-    return meilleurJoueur;
+    std::cout << "le gagnant est : " << meilleurJoueur.getId();
 }
