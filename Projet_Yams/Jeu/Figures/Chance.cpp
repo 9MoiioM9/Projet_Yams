@@ -13,5 +13,5 @@ int Chance::calcul(const std::vector<int> &main) {
 }
 
 Chance::Chance(){
-
+    this->numero = 13;
 }

@@ -9,9 +9,6 @@
 #include "Figure.h"
 
 class Chance : public Figure {
-private:
-    std::vector<int> valDes;
-    int gain;
 public:
     Chance();
     int calcul(const std::vector<int> &);
