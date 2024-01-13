@@ -11,10 +11,10 @@ void testCalculBrelan() {
 
     std::cout << "Test Calcul Yams: ";
 
-    // Cas où tous les éléments sont identiques (Yams)
+    // Cas où tous les éléments sont identiques
     assert(brelan.calcul({1, 1, 1}) == 50);
 
-    // Cas où tous les éléments ne sont pas identiques (pas de Yams)
+    // Cas où tous les éléments ne sont pas identiques
     assert(brelan.calcul({1,2,3}) == 0);
 
     std::cout << "PASS" << std::endl;
