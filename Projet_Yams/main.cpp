@@ -1,13 +1,12 @@
 #include <iostream>
 #include "Jeu/Lancer.h"
+#include "Jeu/Game.h"
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
-    /*
-    srand(static_cast<unsigned>(time(0)));
-    Lancer test;
-    test.relancer();
-    */
+
+    Game g;
+
 
     return 0;
 }

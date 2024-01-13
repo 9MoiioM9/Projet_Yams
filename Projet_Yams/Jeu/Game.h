@@ -14,6 +14,7 @@ class Game {
 private:
     std::vector<Joueur> joueurs;
 public:
+
     void play();
     void initGame();
     Joueur gagnant();

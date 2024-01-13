@@ -5,14 +5,6 @@
 #include <iostream>
 #include "Game.h"
 #include "Lancer.h"
-#include "Figures/Combinaison.h"
-#include "Figures/Templates/Brelan.h"
-#include "Figures/Templates/Carree.h"
-#include "Figures/Templates/Full.h"
-#include "Figures/Petite_Suite.h"
-#include "Figures/Grande_Suite.h"
-#include "Figures/Templates/Yams.h"
-#include "Figures/Chance.h"
 
 void Game::initGame() {
     std::cout << "Début de la partie de Yams !" << std::endl;

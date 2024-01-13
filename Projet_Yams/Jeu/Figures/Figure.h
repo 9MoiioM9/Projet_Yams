@@ -19,7 +19,7 @@ protected:
 public:
 
     virtual int calcul(const std::vector<int> &) const = 0;
-    virtual int calcule(const std::vector<int> &, const int &);
+    virtual int calcule(const std::vector<int> &, const int &) {return 0;}
     std::vector<int> entierEgaux(const std::vector<int>& main, int val);
 
 
