@@ -17,7 +17,9 @@ protected:
     bool complete = false;
 
 public:
+
     virtual int calcul(const std::vector<int> &) const = 0;
+
 
     int getNumero();
     int getGain();

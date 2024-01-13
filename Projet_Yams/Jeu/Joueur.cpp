@@ -16,6 +16,7 @@
 
 Joueur::Joueur(int id) {
     this->id = id;
+
     //Ajout de toutes les Figures dans la feuille du Joueurs
     Combinaison un = Combinaison(1);
     Combinaison deux = Combinaison(2);
@@ -44,6 +45,7 @@ Joueur::Joueur(int id) {
     feuille.push_back(&grande_suite);
     feuille.push_back(&yams);
     feuille.push_back(&chance);
+
 }
 
 int Joueur::getId() {

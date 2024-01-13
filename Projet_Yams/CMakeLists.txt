@@ -24,4 +24,13 @@ add_executable(Projet_Yams main.cpp
         Jeu/Game.h
         Jeu/Figures/Combinaison.cpp
         Jeu/Figures/Combinaison.h
+        tests/TestJoueurs.cpp
+        tests/TestLancer.cpp
+        tests/TestBrelan.cpp
+        tests/TestYams.cpp
+        tests/TestCarree.cpp
+        tests/TestFull.cpp
+        tests/TestGrandeSuite.cpp
+        tests/TestChance.cpp
+        tests/testPetiteSuite.cpp
 )
