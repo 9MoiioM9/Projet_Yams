@@ -15,8 +15,8 @@ TEMPLATES_DIR = jeu/Figures/Templates
 
 # Fichiers source
 SOURCES = $(SRC_DIR)/main.cpp \
-          $(JEU_DIR)/Joueur.cpp $(JEU_DIR)/Lancer.cpp \
-          $(FIGURES_DIR)/Chance.cpp $(FIGURES_DIR)/Figure.cpp \
+          $(JEU_DIR)/Joueur.cpp $(JEU_DIR)/Lancer.cpp $(JEU_DIR)/Game.cpp \
+          $(FIGURES_DIR)/Chance.cpp $(FIGURES_DIR)/Figure.cpp $(FIGURES_DIR)/Combinaisons.cpp \
           $(FIGURES_DIR)/Grande_Suite.cpp $(FIGURES_DIR)/Petite_Suite.cpp \
           $(TEMPLATES_DIR)/Brelan.cpp $(TEMPLATES_DIR)/Carree.cpp \
           $(TEMPLATES_DIR)/Full.cpp $(TEMPLATES_DIR)/Yams.cpp
