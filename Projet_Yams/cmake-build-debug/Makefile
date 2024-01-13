@@ -152,6 +152,30 @@ Jeu/Figures/Chance.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projet_Yams.dir\build.make CMakeFiles/Projet_Yams.dir/Jeu/Figures/Chance.cpp.s
 .PHONY : Jeu/Figures/Chance.cpp.s
 
+Jeu/Figures/Combinaison.obj: Jeu/Figures/Combinaison.cpp.obj
+.PHONY : Jeu/Figures/Combinaison.obj
+
+# target to build an object file
+Jeu/Figures/Combinaison.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projet_Yams.dir\build.make CMakeFiles/Projet_Yams.dir/Jeu/Figures/Combinaison.cpp.obj
+.PHONY : Jeu/Figures/Combinaison.cpp.obj
+
+Jeu/Figures/Combinaison.i: Jeu/Figures/Combinaison.cpp.i
+.PHONY : Jeu/Figures/Combinaison.i
+
+# target to preprocess a source file
+Jeu/Figures/Combinaison.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projet_Yams.dir\build.make CMakeFiles/Projet_Yams.dir/Jeu/Figures/Combinaison.cpp.i
+.PHONY : Jeu/Figures/Combinaison.cpp.i
+
+Jeu/Figures/Combinaison.s: Jeu/Figures/Combinaison.cpp.s
+.PHONY : Jeu/Figures/Combinaison.s
+
+# target to generate assembly for a file
+Jeu/Figures/Combinaison.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projet_Yams.dir\build.make CMakeFiles/Projet_Yams.dir/Jeu/Figures/Combinaison.cpp.s
+.PHONY : Jeu/Figures/Combinaison.cpp.s
+
 Jeu/Figures/Figure.obj: Jeu/Figures/Figure.cpp.obj
 .PHONY : Jeu/Figures/Figure.obj
 
@@ -223,6 +247,30 @@ Jeu/Figures/Petite_Suite.s: Jeu/Figures/Petite_Suite.cpp.s
 Jeu/Figures/Petite_Suite.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projet_Yams.dir\build.make CMakeFiles/Projet_Yams.dir/Jeu/Figures/Petite_Suite.cpp.s
 .PHONY : Jeu/Figures/Petite_Suite.cpp.s
+
+Jeu/Game.obj: Jeu/Game.cpp.obj
+.PHONY : Jeu/Game.obj
+
+# target to build an object file
+Jeu/Game.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projet_Yams.dir\build.make CMakeFiles/Projet_Yams.dir/Jeu/Game.cpp.obj
+.PHONY : Jeu/Game.cpp.obj
+
+Jeu/Game.i: Jeu/Game.cpp.i
+.PHONY : Jeu/Game.i
+
+# target to preprocess a source file
+Jeu/Game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projet_Yams.dir\build.make CMakeFiles/Projet_Yams.dir/Jeu/Game.cpp.i
+.PHONY : Jeu/Game.cpp.i
+
+Jeu/Game.s: Jeu/Game.cpp.s
+.PHONY : Jeu/Game.s
+
+# target to generate assembly for a file
+Jeu/Game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projet_Yams.dir\build.make CMakeFiles/Projet_Yams.dir/Jeu/Game.cpp.s
+.PHONY : Jeu/Game.cpp.s
 
 Jeu/Joueur.obj: Jeu/Joueur.cpp.obj
 .PHONY : Jeu/Joueur.obj
@@ -524,6 +572,9 @@ help:
 	@echo ... Jeu/Figures/Chance.obj
 	@echo ... Jeu/Figures/Chance.i
 	@echo ... Jeu/Figures/Chance.s
+	@echo ... Jeu/Figures/Combinaison.obj
+	@echo ... Jeu/Figures/Combinaison.i
+	@echo ... Jeu/Figures/Combinaison.s
 	@echo ... Jeu/Figures/Figure.obj
 	@echo ... Jeu/Figures/Figure.i
 	@echo ... Jeu/Figures/Figure.s
@@ -533,6 +584,9 @@ help:
 	@echo ... Jeu/Figures/Petite_Suite.obj
 	@echo ... Jeu/Figures/Petite_Suite.i
 	@echo ... Jeu/Figures/Petite_Suite.s
+	@echo ... Jeu/Game.obj
+	@echo ... Jeu/Game.i
+	@echo ... Jeu/Game.s
 	@echo ... Jeu/Joueur.obj
 	@echo ... Jeu/Joueur.i
 	@echo ... Jeu/Joueur.s

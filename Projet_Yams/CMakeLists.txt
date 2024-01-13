@@ -33,4 +33,6 @@ add_executable(Projet_Yams main.cpp
         tests/TestGrandeSuite.cpp
         tests/TestChance.cpp
         tests/testPetiteSuite.cpp
+        Jeu/Game.h
+        Jeu/Game.cpp
 )

@@ -88,6 +88,12 @@
 		<Unit filename="C:/Users/julie/Documents/GitHub/Projet_Yams/Projet_Yams/Jeu/Figures/Chance.h">
 			<Option target="Projet_Yams"/>
 		</Unit>
+		<Unit filename="C:/Users/julie/Documents/GitHub/Projet_Yams/Projet_Yams/Jeu/Figures/Combinaison.cpp">
+			<Option target="Projet_Yams"/>
+		</Unit>
+		<Unit filename="C:/Users/julie/Documents/GitHub/Projet_Yams/Projet_Yams/Jeu/Figures/Combinaison.h">
+			<Option target="Projet_Yams"/>
+		</Unit>
 		<Unit filename="C:/Users/julie/Documents/GitHub/Projet_Yams/Projet_Yams/Jeu/Figures/Figure.cpp">
 			<Option target="Projet_Yams"/>
 		</Unit>
@@ -116,6 +122,12 @@
 			<Option target="Projet_Yams"/>
 		</Unit>
 		<Unit filename="C:/Users/julie/Documents/GitHub/Projet_Yams/Projet_Yams/Jeu/Figures/Templates/Yams.h">
+			<Option target="Projet_Yams"/>
+		</Unit>
+		<Unit filename="C:/Users/julie/Documents/GitHub/Projet_Yams/Projet_Yams/Jeu/Game.cpp">
+			<Option target="Projet_Yams"/>
+		</Unit>
+		<Unit filename="C:/Users/julie/Documents/GitHub/Projet_Yams/Projet_Yams/Jeu/Game.h">
 			<Option target="Projet_Yams"/>
 		</Unit>
 		<Unit filename="C:/Users/julie/Documents/GitHub/Projet_Yams/Projet_Yams/Jeu/Joueur.cpp">
