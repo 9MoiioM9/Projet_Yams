@@ -48,10 +48,6 @@ void Game::play() {
                 std::cout << "Cette figure est déjà complétée ou votre choix n'est pas valide, veuillez en choisir une autre !" << std::endl;
                 std::cin >> choice;
             }
-
-
-
-
         }
     }
 }
