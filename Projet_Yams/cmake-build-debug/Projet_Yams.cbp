@@ -160,9 +160,6 @@
 		<Unit filename="C:/Users/julie/Documents/GitHub/Projet_Yams/Projet_Yams/tests/testPetiteSuite.cpp">
 			<Option target="Projet_Yams"/>
 		</Unit>
-		<Unit filename="C:/Users/julie/Documents/GitHub/Projet_Yams/Projet_Yams/tests/testPetiteSuite.h">
-			<Option target="Projet_Yams"/>
-		</Unit>
 		<Unit filename="C:/Users/julie/Documents/GitHub/Projet_Yams/Projet_Yams/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

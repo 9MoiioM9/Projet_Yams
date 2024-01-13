@@ -6,7 +6,7 @@
 #include <iostream>
 #include <cassert>
 
-void testCalculBrelan() {
+void testCalculCarree() {
     Carree<int> carree;
 
     std::cout << "Test Calcul Yams: ";
