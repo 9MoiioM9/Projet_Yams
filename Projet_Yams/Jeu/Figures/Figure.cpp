@@ -35,9 +35,9 @@ void Figure::setComplete() {
 std::vector<int> Figure::entierEgaux(const std::vector<int> &main, int val) {
     std::vector<int> res;
 
-    for (int value : main) {
-        if (value == val) {
-            res.push_back(value);
+    for (int v : main) {
+        if (v == val) {
+            res.push_back(v);
         }
     }
 

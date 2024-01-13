@@ -24,12 +24,12 @@ Joueur::Joueur(int id) {
     Combinaison quatre = Combinaison(4);
     Combinaison cinq = Combinaison(5);
     Combinaison six = Combinaison(6);
-    Brelan brelan = Brelan();
-    Carree carree = Carree();
-    Full full = Full();
+    Brelan brelan = Brelan<int>();
+    Carree carree = Carree<int>();
+    Full full = Full<int>();
     Petite_Suite petite_suite = Petite_Suite();
     Grande_Suite grande_suite = Grande_Suite();
-    Yams yams = Yams() ;
+    Yams yams = Yams<int>() ;
     Chance chance = Chance();
 
     feuille.push_back(&un);
@@ -57,7 +57,7 @@ int Joueur::getScore() {
 }
 
 void Joueur::setScore(int sc) {
-    this->score = sc;
+    this->score += sc;
 }
 
 void Joueur::afficheFigures() {
@@ -68,7 +68,7 @@ void Joueur::afficheFigures() {
     }
 }
 
-bool Joueur::setFeuille(const int &choice) {
+bool Joueur::setFeuille(const int &choice, std::vector<int> &main) {
     for(int i=0; i<feuille.size();i++){
         if(choice == feuille[i]->getNumero()){
             if(feuille[i]->isComplete()){
@@ -76,9 +76,14 @@ bool Joueur::setFeuille(const int &choice) {
             }
             feuille[i]->setComplete();
             std::cout << "Votre choix : " << feuille[i]->getName() << " a bien été validé !" << std::endl;
+
+            if(1<= choice && choice <= 6){
+                setScore(feuille[i]->calcule(main, choice));
+            }else setScore(feuille[i]->calcul(main));
+
             return true;
         }
     }
-    std::cout << "Votre choix ne fait pas partie des options de figure ..." << std::endl;
+    std::cout << "Votre choix ne fait pas partie des options de figures ..." << std::endl;
     return false;
 }

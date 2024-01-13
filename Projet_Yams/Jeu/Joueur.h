@@ -9,6 +9,7 @@
 #include <string>
 #include <vector>
 #include "Figures/Figure.h"
+#include "Lancer.h"
 
 class Joueur {
 private:
@@ -24,7 +25,8 @@ public:
     int getScore();
     void setScore(int sc);
     void afficheFigures();
-    bool setFeuille(const int &);
+    bool setFeuille(const int &, std::vector<int> &);
+    void addScore(const int &, Lancer &);
 };
 
 

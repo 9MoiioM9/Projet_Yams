@@ -12,7 +12,7 @@ class Combinaison : public Figure{
 public:
     Combinaison(const int &);
     int calcul(const std::vector<int> &) const override;
-    int calcule(const std::vector<int> &, int &);
+    int calcule(const std::vector<int> &,const int &) override;
 };
 
 
