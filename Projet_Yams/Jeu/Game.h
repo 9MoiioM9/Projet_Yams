@@ -16,6 +16,7 @@ private:
 public:
     void play();
     void initGame();
+    Joueur gagnant();
 
 };
 

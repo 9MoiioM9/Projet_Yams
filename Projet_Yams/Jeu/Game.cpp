@@ -62,7 +62,7 @@ void Game::play() {
                 case 8:
                     Carree<int> carree();
                     jou.setFeuille(8);
-                    jou.setScore(brelan().calcul(brelan().entierEgaux(main.getDices(), choice )));
+                    jou.setScore( carree().calcul(carree().entierEgaux(main.getDices(), choice )));
                     break;
                 case 9 :
                     Full<int> full();
@@ -97,4 +97,19 @@ void Game::play() {
 
         }
     }
+}
+
+Joueur Game::gagnant() {
+
+    // Initialise le joueur avec le premier joueur de la liste
+    Joueur meilleurJoueur = joueurs[0];
+
+    // Parcours les joueurs restants et met à jour le meilleur joueur si nécessaire
+    for (size_t i = 1; i < joueurs.size(); ++i) {
+        if (joueurs[i].getScore() > meilleurJoueur.getScore()) {
+            meilleurJoueur = joueurs[i];
+        }
+    }
+
+    return meilleurJoueur;
 }
